@@ -97,7 +97,7 @@ sudo xattr -rd com.apple.quarantine '/Applications/Wine Crossover.app'
 - Clone the repository:
 
 - Using [Dolphin Emulator](https://dolphin-emu.org/), extract your game.
-- 
+
 - Configure:
   ```
   python configure.py
