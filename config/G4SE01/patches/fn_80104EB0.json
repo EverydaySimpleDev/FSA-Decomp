@@ -1,0 +1,9 @@
+{
+  "section": ".text",
+  "patches": [
+    {"offset": "0x20", "old": "41", "new": "40"}
+  ],
+  "insertions": [
+    {"offset": "0x184", "bytes": "38600000"}
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "section": ".text",
+  "patches": [
+    {
+      "offset": "0x11",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x15",
+      "old": "9E",
+      "new": "9F"
+    },
+    {
+      "offset": "0x29",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x39",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x5d",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x61",
+      "old": "9F",
+      "new": "9E"
+    },
+    {
+      "offset": "0x9d",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xc1",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xc5",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xe9",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xed",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x111",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x115",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x139",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x13d",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x179",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x19d",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x1a1",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x1c5",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x1c9",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x205",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x229",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x22d",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x251",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x255",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x279",
+      "old": "C0",
+      "new": "E0"
+    },
+    {
+      "offset": "0x27d",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x289",
+      "old": "E3FB",
+      "new": "C3F3"
+    },
+    {
+      "offset": "0x291",
+      "old": "E3FB",
+      "new": "C3F3"
+    }
+  ]
+}

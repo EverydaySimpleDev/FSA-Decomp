@@ -1,0 +1,22 @@
+{
+  "section": ".text",
+  "patches": [
+    { "offset": "0x9c", "old": "39000000", "new": "38e00000" },
+    { "offset": "0xa0", "old": "38e0ffff", "new": "3900ffff" },
+    { "offset": "0xa4", "old": "99010036", "new": "98e10036" },
+    { "offset": "0xb8", "old": "90e10038", "new": "91010038" },
+    { "offset": "0xc0", "old": "90e10018", "new": "91010018" },
+    { "offset": "0xc4", "old": "9101001c", "new": "90e1001c" },
+    { "offset": "0xc8", "old": "91010020", "new": "90e10020" },
+    { "offset": "0xcc", "old": "99010024", "new": "98e10024" },
+    { "offset": "0xd0", "old": "99010025", "new": "98e10025" },
+    { "offset": "0xd4", "old": "99010026", "new": "98e10026" },
+    { "offset": "0xe0", "old": "99010029", "new": "98e10029" },
+    { "offset": "0xe4", "old": "9901002a", "new": "98e1002a" },
+    { "offset": "0xe8", "old": "9901002b", "new": "98e1002b" },
+    { "offset": "0xec", "old": "9901002c", "new": "98e1002c" },
+    { "offset": "0xf0", "old": "9901002d", "new": "98e1002d" },
+    { "offset": "0x100", "old": "99010035", "new": "98e10035" },
+    { "offset": "0x104", "old": "9101003c", "new": "90e1003c" }
+  ]
+}

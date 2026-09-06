@@ -1,0 +1,369 @@
+# fn_8037DF68 - actor@lbl_804AF32C: constructor (0x554)
+# Installs vtable lbl_804AF32C, initializes many float tuning constants and
+# small integer defaults (radii/counts/thresholds) into member fields.
+# Track A: byte-match verified, structural overview per the
+# large/complex-function exception - not fully field-mapped given scale.
+.section extab, "a"
+.balign 4
+.global etb_8000EC68
+etb_8000EC68:
+    .4byte 0x900A0000
+    .4byte 0x00000000
+.size etb_8000EC68, 8
+
+.section extabindex, "a"
+.balign 4
+.global eti_8001E9E8
+eti_8001E9E8:
+    .4byte fn_8037DF68
+    .4byte 0x00000554
+    .4byte etb_8000EC68
+.size eti_8001E9E8, 12
+
+.text
+.balign 4
+.global fn_8037DF68
+
+fn_8037DF68:
+    stwu 1, -0x50(1)
+    lis 4, lbl_804AF32C@ha
+    addi 0, 4, lbl_804AF32C@l
+    .4byte 0xC0A20118 # lfs f5, lbl_805430B8@sda21(r0)
+    stmw 14, 0x8(1)
+    li 15, 0x0
+    .4byte 0xC082011C # lfs f4, lbl_805430BC@sda21(r0)
+    li 16, 0x6
+    .4byte 0xC0620120 # lfs f3, lbl_805430C0@sda21(r0)
+    li 11, -0x28
+    .4byte 0xC0420124 # lfs f2, lbl_805430C4@sda21(r0)
+    li 17, 0x50
+    .4byte 0xC0220128 # lfs f1, lbl_805430C8@sda21(r0)
+    li 18, 0x5
+    .4byte 0xC002012C # lfs f0, lbl_805430CC@sda21(r0)
+    li 10, 0x3
+    li 19, 0x3c
+    li 20, 0xa
+    li 21, 0xf
+    li 22, 0x1e
+    li 23, 0x4
+    li 9, 0x16
+    li 24, 0x10
+    li 8, 0x78
+    li 25, 0x32
+    li 6, 0x1c
+    li 5, 0x1a
+    li 7, 0xe
+    li 4, 0x1
+    stw 0, 0x0(3)
+    li 0, 0x18
+    stb 15, 0x4(3)
+    stb 15, 0x5(3)
+    sth 15, 0x6(3)
+    stfs 5, 0x8(3)
+    stfs 4, 0x30(3)
+    stfs 3, 0x34(3)
+    stfs 2, 0x38(3)
+    stfs 1, 0x3c(3)
+    sth 16, 0x4c(3)
+    stfs 0, 0x40(3)
+    sth 11, 0x4e(3)
+    sth 17, 0x50(3)
+    sth 18, 0x52(3)
+    sth 17, 0x54(3)
+    sth 10, 0x56(3)
+    sth 15, 0x58(3)
+    sth 19, 0x5a(3)
+    sth 10, 0x5c(3)
+    sth 20, 0x5e(3)
+    sth 21, 0x60(3)
+    sth 22, 0x62(3)
+    sth 23, 0x64(3)
+    sth 9, 0x66(3)
+    sth 24, 0x68(3)
+    sth 0, 0x6a(3)
+    sth 8, 0x6c(3)
+    sth 15, 0x6e(3)
+    sth 9, 0x70(3)
+    sth 18, 0x74(3)
+    sth 22, 0x76(3)
+    sth 15, 0x78(3)
+    sth 22, 0x7a(3)
+    sth 18, 0x7c(3)
+    sth 18, 0x7e(3)
+    sth 25, 0x80(3)
+    stb 15, 0x2fa(3)
+    stb 15, 0x2fb(3)
+    sth 6, 0x8c(3)
+    sth 18, 0x8e(3)
+    sth 5, 0x90(3)
+    sth 18, 0x92(3)
+    sth 7, 0x94(3)
+    sth 20, 0x96(3)
+    sth 20, 0x98(3)
+    sth 25, 0x9a(3)
+    sth 4, 0x9c(3)
+    sth 22, 0x9e(3)
+    sth 15, 0xc8(3)
+    sth 9, 0xca(3)
+    li 26, 0x14
+    li 6, 0xc
+    sth 26, 0xcc(3)
+    li 27, 0x2
+    li 5, 0x12
+    li 28, 0x8
+    sth 26, 0xce(3)
+    li 4, 0x64
+    li 29, 0xc8
+    sth 7, 0xd0(3)
+    sth 26, 0xd2(3)
+    sth 26, 0xd4(3)
+    sth 24, 0xd6(3)
+    sth 18, 0xd8(3)
+    sth 26, 0xda(3)
+    sth 20, 0xdc(3)
+    sth 24, 0xde(3)
+    sth 6, 0xe0(3)
+    sth 18, 0xe2(3)
+    sth 20, 0xe4(3)
+    sth 26, 0xe6(3)
+    sth 15, 0xe8(3)
+    sth 20, 0xea(3)
+    sth 18, 0xec(3)
+    sth 27, 0xee(3)
+    sth 26, 0xf0(3)
+    sth 15, 0xf2(3)
+    sth 26, 0xf4(3)
+    sth 18, 0xf6(3)
+    sth 20, 0xf8(3)
+    sth 18, 0xfa(3)
+    sth 20, 0x104(3)
+    sth 10, 0x106(3)
+    sth 20, 0x108(3)
+    sth 26, 0x10a(3)
+    sth 15, 0x118(3)
+    sth 5, 0x11a(3)
+    sth 28, 0x11c(3)
+    sth 9, 0x11e(3)
+    sth 15, 0x120(3)
+    sth 21, 0x122(3)
+    sth 5, 0x124(3)
+    sth 21, 0x126(3)
+    sth 4, 0x128(3)
+    sth 29, 0x12a(3)
+    sth 22, 0x12c(3)
+    sth 26, 0x12e(3)
+    sth 15, 0x154(3)
+    sth 26, 0x156(3)
+    sth 16, 0x158(3)
+    sth 15, 0x15a(3)
+    sth 26, 0x15c(3)
+    sth 15, 0x15e(3)
+    sth 26, 0x160(3)
+    sth 15, 0x168(3)
+    sth 5, 0x16a(3)
+    sth 15, 0x16c(3)
+    sth 20, 0x16e(3)
+    sth 28, 0x170(3)
+    sth 20, 0x172(3)
+    sth 26, 0x174(3)
+    sth 16, 0x176(3)
+    sth 15, 0x17c(3)
+    sth 24, 0x17e(3)
+    sth 16, 0x180(3)
+    sth 20, 0x182(3)
+    sth 26, 0x184(3)
+    sth 20, 0x186(3)
+    sth 20, 0x188(3)
+    sth 28, 0x18a(3)
+    sth 15, 0x190(3)
+    sth 26, 0x192(3)
+    sth 15, 0x194(3)
+    sth 20, 0x196(3)
+    sth 28, 0x198(3)
+    sth 26, 0x19a(3)
+    sth 26, 0x19c(3)
+    sth 20, 0x19e(3)
+    sth 15, 0x1a4(3)
+    sth 26, 0x1a6(3)
+    sth 15, 0x1a8(3)
+    sth 16, 0x1aa(3)
+    sth 28, 0x1ac(3)
+    sth 15, 0x1ae(3)
+    sth 26, 0x1b0(3)
+    sth 15, 0x1b8(3)
+    sth 26, 0x1ba(3)
+    sth 15, 0x1bc(3)
+    sth 20, 0x1be(3)
+    sth 28, 0x1c0(3)
+    sth 15, 0x1c2(3)
+    sth 26, 0x1c4(3)
+    sth 15, 0x1cc(3)
+    sth 26, 0x1ce(3)
+    sth 15, 0x1d0(3)
+    sth 26, 0x1d2(3)
+    sth 15, 0x1d4(3)
+    sth 20, 0x1d6(3)
+    sth 28, 0x1d8(3)
+    sth 26, 0x1da(3)
+    sth 26, 0x1dc(3)
+    sth 15, 0x1e0(3)
+    sth 20, 0x1e2(3)
+    sth 28, 0x1e4(3)
+    sth 26, 0x1e6(3)
+    sth 20, 0x1e8(3)
+    sth 28, 0x1ea(3)
+    sth 15, 0x1ec(3)
+    sth 26, 0x1ee(3)
+    sth 15, 0x1f0(3)
+    li 5, -0x37
+    li 4, 0x7
+    sth 26, 0x1f2(3)
+    sth 15, 0x1f4(3)
+    sth 26, 0x1f6(3)
+    sth 15, 0x1f8(3)
+    sth 20, 0x1fa(3)
+    sth 28, 0x1fc(3)
+    sth 26, 0x1fe(3)
+    sth 26, 0x200(3)
+    sth 20, 0x202(3)
+    sth 15, 0x208(3)
+    sth 26, 0x20a(3)
+    sth 15, 0x20c(3)
+    sth 26, 0x20e(3)
+    sth 26, 0x210(3)
+    sth 26, 0x212(3)
+    sth 15, 0x21c(3)
+    sth 26, 0x21e(3)
+    sth 15, 0x220(3)
+    sth 20, 0x222(3)
+    sth 28, 0x224(3)
+    sth 26, 0x226(3)
+    sth 26, 0x228(3)
+    sth 22, 0x22a(3)
+    sth 17, 0x22c(3)
+    sth 22, 0x22e(3)
+    sth 15, 0x230(3)
+    sth 15, 0x232(3)
+    sth 15, 0x234(3)
+    sth 15, 0x236(3)
+    sth 20, 0x238(3)
+    sth 20, 0x23c(3)
+    sth 23, 0x23a(3)
+    sth 15, 0x23e(3)
+    sth 5, 0x240(3)
+    sth 6, 0x244(3)
+    sth 23, 0x246(3)
+    sth 28, 0x248(3)
+    sth 20, 0x24a(3)
+    sth 28, 0x24c(3)
+    sth 23, 0x24e(3)
+    sth 28, 0x250(3)
+    sth 4, 0x252(3)
+    sth 23, 0x254(3)
+    sth 28, 0x256(3)
+    sth 22, 0x258(3)
+    sth 18, 0x25a(3)
+    sth 28, 0x25c(3)
+    sth 20, 0x25e(3)
+    sth 15, 0x260(3)
+    sth 6, 0x262(3)
+    sth 15, 0x264(3)
+    li 30, -0xc
+    li 31, -0x3c
+    li 12, 0x12c
+    sth 6, 0x266(3)
+    li 11, 0x15e
+    li 10, 0x1ea
+    li 9, 0x24
+    sth 18, 0x268(3)
+    li 8, 0x47e
+    li 7, 0x46
+    li 6, 0x23
+    sth 0, 0x26c(3)
+    li 5, 0x28
+    li 4, 0x8c
+    li 0, 0x4a
+    sth 21, 0x26e(3)
+    li 14, 0x82
+    li 21, 0x96
+    sth 17, 0x290(3)
+    sth 27, 0x270(3)
+    sth 18, 0x272(3)
+    sth 15, 0x274(3)
+    sth 16, 0x276(3)
+    sth 15, 0x278(3)
+    sth 15, 0x27a(3)
+    sth 15, 0x27c(3)
+    sth 30, 0x27e(3)
+    sth 15, 0x280(3)
+    sth 15, 0x282(3)
+    sth 19, 0x284(3)
+    sth 26, 0x286(3)
+    sth 20, 0x288(3)
+    sth 28, 0x28a(3)
+    sth 16, 0x28c(3)
+    sth 23, 0x28e(3)
+    sth 31, 0x294(3)
+    sth 12, 0x296(3)
+    sth 11, 0x298(3)
+    sth 10, 0x29a(3)
+    sth 9, 0x29c(3)
+    sth 25, 0x29e(3)
+    sth 15, 0x2a0(3)
+    sth 15, 0x2a2(3)
+    sth 15, 0x2a4(3)
+    sth 15, 0x2a6(3)
+    sth 24, 0x2a8(3)
+    sth 27, 0x2aa(3)
+    sth 15, 0x2ac(3)
+    sth 15, 0x2ae(3)
+    sth 8, 0x2b0(3)
+    sth 16, 0x2b2(3)
+    sth 15, 0x2b4(3)
+    sth 26, 0x2b6(3)
+    sth 18, 0x2b8(3)
+    sth 15, 0x2ba(3)
+    sth 15, 0x2bc(3)
+    sth 20, 0x2be(3)
+    sth 22, 0x2c0(3)
+    sth 7, 0x2c2(3)
+    sth 6, 0x2c4(3)
+    sth 17, 0x2c6(3)
+    sth 5, 0x2c8(3)
+    sth 4, 0x2ca(3)
+    sth 15, 0x2cc(3)
+    sth 0, 0x2ce(3)
+    sth 22, 0x2d0(3)
+    sth 15, 0x2d2(3)
+    sth 15, 0x2d4(3)
+    sth 15, 0x2d6(3)
+    sth 15, 0x2d8(3)
+    sth 15, 0x2da(3)
+    sth 15, 0x2dc(3)
+    sth 15, 0x2de(3)
+    sth 15, 0x2e0(3)
+    sth 15, 0x2e2(3)
+    sth 15, 0x2e4(3)
+    sth 15, 0x2e6(3)
+    sth 29, 0x2e8(3)
+    sth 14, 0x2ea(3)
+    sth 15, 0x2ec(3)
+    sth 27, 0x2ee(3)
+    stfs 2, 0x44(3)
+    stfs 5, 0x48(3)
+    sth 17, 0x2f8(3)
+    stb 15, 0x30c(3)
+    stb 17, 0x304(3)
+    stb 26, 0x305(3)
+    stb 21, 0x306(3)
+    stb 15, 0x307(3)
+    stb 15, 0x308(3)
+    stb 15, 0x309(3)
+    stb 15, 0x30a(3)
+    stb 15, 0x30b(3)
+    stb 15, 0x30c(3)
+    stb 15, 0x30d(3)
+    lmw 14, 0x8(1)
+    addi 1, 1, 0x50
+    blr
+

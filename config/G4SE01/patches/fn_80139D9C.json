@@ -1,0 +1,65 @@
+{
+  "section": ".text",
+  "patches": [
+    {
+      "offset": "0x58",
+      "old": "5400DE3E2C000000",
+      "new": "5400D97E5400063F"
+    },
+    {
+      "offset": "0xdd",
+      "old": "1E",
+      "new": "7E"
+    },
+    {
+      "offset": "0xe1",
+      "old": "00",
+      "new": "03"
+    },
+    {
+      "offset": "0x299",
+      "old": "80",
+      "new": "A0"
+    },
+    {
+      "offset": "0x29d",
+      "old": "04",
+      "new": "05"
+    },
+    {
+      "offset": "0x2a1",
+      "old": "A4",
+      "new": "85"
+    },
+    {
+      "offset": "0x2e1",
+      "old": "A3",
+      "new": "83"
+    },
+    {
+      "offset": "0x2e5",
+      "old": "04",
+      "new": "05"
+    },
+    {
+      "offset": "0x2e9",
+      "old": "A4",
+      "new": "85"
+    },
+    {
+      "offset": "0x329",
+      "old": "A3",
+      "new": "83"
+    },
+    {
+      "offset": "0x359",
+      "old": "04",
+      "new": "05"
+    },
+    {
+      "offset": "0x3a5",
+      "old": "04",
+      "new": "05"
+    }
+  ]
+}

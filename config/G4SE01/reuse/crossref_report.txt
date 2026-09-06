@@ -1,0 +1,445 @@
+Total name matches: 436
+With known cbr source file: 258
+Exact size match: 248
+Unique files: 177
+
+=== SIZE-MATCHING (highest confidence, likely byte-identical SDK code) ===
+__start                                  fsa=0x80003154 size=0x15C  <- Dolphin/os/__start.c
+__init_registers                         fsa=0x800032B0 size=0x90  <- Dolphin/os/__start.c
+__init_data                              fsa=0x80003340 size=0xC0  <- Dolphin/os/__start.c
+__fill_mem                               fsa=0x80003488 size=0xB8  <- Dolphin/Runtime/__mem.c
+memcpy                                   fsa=0x80003540 size=0x50  <- Dolphin/Runtime/__mem.c
+TRK_memcpy                               fsa=0x800035C0 size=0x24  <- TRK_MINNOW_DOLPHIN/mem_TRK.c
+GXInitLightAttn                          fsa=0x8005CC04 size=0x1C  <- Dolphin/gx/gxinitlightattn_80188abc.c
+TRK_memset                               fsa=0x80130234 size=0x30  <- TRK_MINNOW_DOLPHIN/mem_TRK.c
+GXInitTexObjUserData                     fsa=0x801A5060 size=0x8  <- Dolphin/gx/GXInitTexObjUserData.c
+PPCSync                                  fsa=0x801BA87C size=0x8  <- Dolphin/os/PPCSync.c
+PPCHalt                                  fsa=0x801BA884 size=0x14  <- Dolphin/base/PPCArch2.c
+PPCMffpscr                               fsa=0x801BA8C8 size=0x20  <- Dolphin/base/ppcfpscr_801611d4.c
+PPCMtfpscr                               fsa=0x801BA8E8 size=0x28  <- Dolphin/base/ppcfpscr_801611d4.c
+PPCMfhid2                                fsa=0x801BA910 size=0x8  <- Dolphin/base/PPCArch3.c
+PPCMtwpar                                fsa=0x801BA920 size=0x8  <- Dolphin/base/PPCArch3.c
+PPCDisableSpeculation                    fsa=0x801BA928 size=0x28  <- Dolphin/base/ppcdisablespeculation_80161234.c
+PPCSetFpNonIEEEMode                      fsa=0x801BA950 size=0x8  <- Dolphin/base/ppcsetfpnonieeemode_8016125c.c
+__OSFPRInit                              fsa=0x801BA958 size=0x128  <- Dolphin/os/osfprinit_80161350.c
+OSGetConsoleType                         fsa=0x801BAA80 size=0x28  <- Dolphin/os/osgetconsoletype_80161478.c
+__OSGetDIConfig                          fsa=0x801BB404 size=0x14  <- Dolphin/os/osgetdiconfig_80161ddc.c
+OSInitAlarm                              fsa=0x801BB444 size=0x58  <- Dolphin/os/osalarm_80161e1c.c
+InsertAlarm                              fsa=0x801BB4AC size=0x250  <- Dolphin/os/osalarm_80161e1c.c
+OSSetAlarm                               fsa=0x801BB6FC size=0x68  <- Dolphin/os/osalarm_80161e1c.c
+OSSetPeriodicAlarm                       fsa=0x801BB764 size=0x7C  <- Dolphin/os/osalarm_80161e1c.c
+OSCancelAlarm                            fsa=0x801BB7E0 size=0x11C  <- Dolphin/os/osalarm_80161e1c.c
+DecrementerExceptionCallback             fsa=0x801BB8FC size=0x230  <- Dolphin/os/osalarm_80161e1c.c
+DLInsert                                 fsa=0x801BBC1C size=0xAC  <- Dolphin/os/osalloc_801625f4.c
+OSAllocFromHeap                          fsa=0x801BBCC8 size=0xFC  <- Dolphin/os/osallocfromheap_801626a0.c
+OSFreeToHeap                             fsa=0x801BBDC4 size=0x7C  <- Dolphin/os/osallocfromheap_801626a0.c
+OSInitAlloc                              fsa=0x801BBE50 size=0x70  <- Dolphin/os/osallocfromheap_801626a0.c
+OSCreateHeap                             fsa=0x801BBEC0 size=0x6C  <- Dolphin/os/osallocfromheap_801626a0.c
+__OSInitAudioSystem                      fsa=0x801BBF4C size=0x1BC  <- Dolphin/os/OSAudioSystem.c
+__OSStopAudioSystem                      fsa=0x801BC108 size=0xD8  <- Dolphin/os/OSAudioSystem.c
+DCStoreRange                             fsa=0x801BC250 size=0x30  <- Dolphin/os/dcstorerange_80162fd8.c
+L2GlobalInvalidate                       fsa=0x801BC358 size=0x98  <- Dolphin/os/oscacheinit_801632c8.c
+DMAErrorHandler                          fsa=0x801BC3F0 size=0x160  <- Dolphin/os/oscacheinit_801632c8.c
+__OSCacheInit                            fsa=0x801BC550 size=0xF4  <- Dolphin/os/oscacheinit_801632c8.c
+__OSLoadFPUContext                       fsa=0x801BC644 size=0x124  <- Dolphin/os/osloadfpucontext_801635b4.c
+__OSSaveFPUContext                       fsa=0x801BC768 size=0x128  <- Dolphin/os/osloadfpucontext_801635b4.c
+OSSetCurrentContext                      fsa=0x801BC898 size=0x5C  <- Dolphin/os/osloadfpucontext_801635b4.c
+OSSaveContext                            fsa=0x801BC900 size=0x80  <- Dolphin/os/ossavecontext_80163870.c
+OSDumpContext                            fsa=0x801BCB40 size=0x2A8  <- Dolphin/os/osdumpcontext_80163ae0.c
+__OSContextInit                          fsa=0x801BCE6C size=0x48  <- Dolphin/os/osswitchfpucontext_80163d88.c
+OSFillFPUContext                         fsa=0x801BCEB4 size=0x12C  <- Dolphin/os/osfpucontextsave_80163e54.c
+OSSetErrorHandler                        fsa=0x801BCFE0 size=0x218  <- Dolphin/os/osseterrorhandler_801640ac.c
+OSDisableInterrupts                      fsa=0x801BD538 size=0x14  <- Dolphin/os/osdisableinterrupts_80166e50.c
+OSEnableInterrupts                       fsa=0x801BD54C size=0x14  <- Dolphin/os/osdisableinterrupts_80166e50.c
+OSRestoreInterrupts                      fsa=0x801BD560 size=0x24  <- Dolphin/os/osdisableinterrupts_80166e50.c
+__OSSetInterruptHandler                  fsa=0x801BD584 size=0x1C  <- Dolphin/os/osdisableinterrupts_80166e50.c
+__OSGetInterruptHandler                  fsa=0x801BD5A0 size=0x14  <- Dolphin/os/OSGetInterruptHandler.c
+__OSMaskInterrupts                       fsa=0x801BD900 size=0x88  <- Dolphin/os/osmaskinterrupts_80166f40.c
+__OSUnmaskInterrupts                     fsa=0x801BD988 size=0x88  <- Dolphin/os/osmaskinterrupts_80166f40.c
+__OSDispatchInterrupt                    fsa=0x801BDA10 size=0x344  <- Dolphin/os/osdispatchinterrupt_80167328.c
+__OSModuleInit                           fsa=0x801BDDA4 size=0x18  <- Dolphin/os/OSLink.c
+AXFXSetHooks                             fsa=0x801BEC7C size=0xC  <- Dolphin/axfx/AXFXHooks.c
+AXFXGetHooks                             fsa=0x801BEC88 size=0x14  <- Dolphin/axfx/AXFXHooks.c
+OSGetProgressiveMode                     fsa=0x801BFBF4 size=0x70  <- Dolphin/os/osgetprogressivemode_80169808.c
+__OSInitSystemCall                       fsa=0x801C0038 size=0x64  <- Dolphin/os/OSSync.c
+OSInitThreadQueue                        fsa=0x801C026C size=0x10  <- Dolphin/os/OSInitThreadQueue.c
+OSGetCurrentContext                      fsa=0x801C027C size=0xC  <- Dolphin/os/OSGetCurrentContext.c
+OSDisableScheduler                       fsa=0x801C02FC size=0x40  <- Dolphin/os/osscheduler_80169fdc.c
+UnsetRun                                 fsa=0x801C033C size=0x68  <- Dolphin/os/osthread1_8016a05c.c
+__OSGetEffectivePriority                 fsa=0x801C03A4 size=0x3C  <- Dolphin/os/osthread1_8016a05c.c
+SetEffectivePriority                     fsa=0x801C03E0 size=0x1C0  <- Dolphin/os/seteffectivepriority_8016a100.c
+SelectThread                             fsa=0x801C05F0 size=0x228  <- Dolphin/os/selectthread_8016a2c0.c
+__OSReschedule                           fsa=0x801C0818 size=0x30  <- Dolphin/os/osreschedule_8016a4e8.c
+OSYieldThread                            fsa=0x801C0848 size=0x3C  <- Dolphin/os/osreschedule_8016a4e8.c
+OSCreateThread                           fsa=0x801C0884 size=0x1E8  <- Dolphin/os/oscreatethread_8016a554.c
+OSCancelThread                           fsa=0x801C0B50 size=0x1BC  <- Dolphin/os/osthreadcluster_8016a73c.c
+OSResumeThread                           fsa=0x801C0EEC size=0x288  <- Dolphin/os/osthreadcluster_8016a73c.c
+OSSuspendThread                          fsa=0x801C1174 size=0x170  <- Dolphin/os/osthreadcluster_8016a73c.c
+OSSleepThread                            fsa=0x801C12E4 size=0xEC  <- Dolphin/os/osthreadcluster_8016a73c.c
+OSWakeupThread                           fsa=0x801C13D0 size=0x104  <- Dolphin/os/osthreadcluster_8016a73c.c
+OSGetTime                                fsa=0x801C1E34 size=0x18  <- Dolphin/os/ostime_8016b070.c
+OSGetTick                                fsa=0x801C1E4C size=0x8  <- Dolphin/os/ostime_8016b070.c
+__OSGetSystemTime                        fsa=0x801C1E54 size=0x64  <- Dolphin/os/osgetsystemtime_8016b090.c
+__OSTimeToSystemTime                     fsa=0x801C1EB8 size=0x58  <- Dolphin/os/ostimetosystemtime_8016b0f4.c
+SetExiInterruptMask                      fsa=0x801C2344 size=0xF4  <- Dolphin/exi/setexiinterruptmask_8015d9c4.c
+EXIImm                                   fsa=0x801C2438 size=0x25C  <- Dolphin/exi/exiimm_8015dab8.c
+EXIImmEx                                 fsa=0x801C2694 size=0xA0  <- Dolphin/exi/exiimm_8015dab8.c
+EXIDma                                   fsa=0x801C2734 size=0xEC  <- Dolphin/exi/exiimm_8015dab8.c
+EXIClearInterrupts                       fsa=0x801C2A6C size=0x48  <- Dolphin/exi/exiclearinterrupts_8015e0ec.c
+EXISetExiCallback                        fsa=0x801C2AB4 size=0x7C  <- Dolphin/exi/exiclearinterrupts_8015e0ec.c
+__EXIProbe                               fsa=0x801C2B30 size=0x174  <- Dolphin/exi/exiclearinterrupts_8015e0ec.c
+EXIProbeEx                               fsa=0x801C2D24 size=0xB4  <- Dolphin/exi/exiclearinterrupts_8015e0ec.c
+EXIDetach                                fsa=0x801C2EE4 size=0xBC  <- Dolphin/exi/exidetach_8015e564.c
+EXISelect                                fsa=0x801C2FA0 size=0x12C  <- Dolphin/exi/exidetach_8015e564.c
+EXIDeselect                              fsa=0x801C30CC size=0x110  <- Dolphin/exi/exidetach_8015e564.c
+EXIIntrruptHandler                       fsa=0x801C31DC size=0xC8  <- Dolphin/exi/exiinterrupthandlers_8015e85c.c
+TCIntrruptHandler                        fsa=0x801C32A4 size=0x218  <- Dolphin/exi/exiinterrupthandlers_8015e85c.c
+EXTIntrruptHandler                       fsa=0x801C34BC size=0xD0  <- Dolphin/exi/exiinterrupthandlers_8015e85c.c
+EXIInit                                  fsa=0x801C358C size=0x1D4  <- Dolphin/exi/exiinit_8015ec0c.c
+EXILock                                  fsa=0x801C3760 size=0xF4  <- Dolphin/exi/exiinit_8015ec0c.c
+EXIUnlock                                fsa=0x801C3854 size=0xDC  <- Dolphin/exi/exiinit_8015ec0c.c
+EXIGetState                              fsa=0x801C3930 size=0x18  <- Dolphin/exi/exigetstate_8015efb0.c
+UnlockedHandler                          fsa=0x801C3948 size=0x28  <- Dolphin/exi/exigetid_8015efc8.c
+EXIGetID                                 fsa=0x801C3970 size=0x3B0  <- Dolphin/exi/exigetid_8015efc8.c
+SIBusy                                   fsa=0x801C42F4 size=0x20  <- Dolphin/si/sibusy_8015f958.c
+SIIsChanBusy                             fsa=0x801C4314 size=0x3C  <- Dolphin/si/sibusy_8015f958.c
+CompleteTransfer                         fsa=0x801C4350 size=0x2FC  <- Dolphin/si/completetransfer_8015f9b4.c
+SIInterruptHandler                       fsa=0x801C464C size=0x344  <- Dolphin/si/siinterrupthandler_8015fcb0.c
+SIEnablePollingInterrupt                 fsa=0x801C4990 size=0x98  <- Dolphin/si/sienablepollinginterrupt_8015fff4.c
+SIRegisterPollingHandler                 fsa=0x801C4A28 size=0xCC  <- Dolphin/si/sienablepollinginterrupt_8015fff4.c
+SIUnregisterPollingHandler               fsa=0x801C4AF4 size=0xF4  <- Dolphin/si/sienablepollinginterrupt_8015fff4.c
+SIInit                                   fsa=0x801C4BE8 size=0xB4  <- Dolphin/si/siinit_8016024c.c
+__SITransfer                             fsa=0x801C4C9C size=0x20C  <- Dolphin/si/sitransfer_80160300.c
+SIGetStatus                              fsa=0x801C4EA8 size=0x7C  <- Dolphin/si/sigetstatus_8016050c.c
+SISetCommand                             fsa=0x801C4F24 size=0x14  <- Dolphin/si/sigetstatus_8016050c.c
+SITransferCommands                       fsa=0x801C4F38 size=0x10  <- Dolphin/si/sitransfercommands_8016059c.c
+SISetXY                                  fsa=0x801C4F48 size=0x6C  <- Dolphin/si/sisetxy_801605ac.c
+SIEnablePolling                          fsa=0x801C4FB4 size=0x9C  <- Dolphin/si/sisetxy_801605ac.c
+SIDisablePolling                         fsa=0x801C5050 size=0x6C  <- Dolphin/si/sisetxy_801605ac.c
+SIGetResponseRaw                         fsa=0x801C50BC size=0xD4  <- Dolphin/si/sigetresponseraw_80160720.c
+SIGetResponse                            fsa=0x801C5190 size=0xC4  <- Dolphin/si/sigetresponseraw_80160720.c
+SITransfer                               fsa=0x801C52E0 size=0x16C  <- Dolphin/si/sialarmhandler_801608b8.c
+GetTypeCallback                          fsa=0x801C544C size=0x298  <- Dolphin/si/gettypecallback_80160ab0.c
+SIGetType                                fsa=0x801C56E4 size=0x1C4  <- Dolphin/si/gettypecallback_80160ab0.c
+SIGetTypeAsync                           fsa=0x801C58A8 size=0x13C  <- Dolphin/si/gettypecallback_80160ab0.c
+SISetSamplingRate                        fsa=0x801C5B54 size=0xE4  <- Dolphin/si/SISamplingRate.c
+SIRefreshSamplingRate                    fsa=0x801C5C38 size=0x24  <- Dolphin/si/SISamplingRate.c
+DBInit                                   fsa=0x801C5C5C size=0x28  <- Dolphin/db/dbinit_80161264.c
+__DBExceptionDestinationAux              fsa=0x801C5C84 size=0x48  <- Dolphin/db/dbinit_80161264.c
+__DBExceptionDestination                 fsa=0x801C5CCC size=0x10  <- Dolphin/db/db2.c
+__DBIsExceptionMarked                    fsa=0x801C5CDC size=0x1C  <- Dolphin/db/db2.c
+PSMTXMultVec                             fsa=0x801C6630 size=0x54  <- Dolphin/mtx/psmtxmultvec.c
+PSMTXMultVecSR                           fsa=0x801C6684 size=0x54  <- Dolphin/mtx/psmtxmultvecsr.c
+C_MTXPerspective                         fsa=0x801C6760 size=0xD0  <- Dolphin/mtx/mtx44persp_8016c490.c
+C_MTXOrtho                               fsa=0x801C6830 size=0x98  <- Dolphin/mtx/mtx44persp_8016c490.c
+PSVECSubtract                            fsa=0x801C68EC size=0x24  <- Dolphin/mtx/psvecsubtract.c
+PSQUATScale                              fsa=0x801C6910 size=0x1C  <- game/system/psquatscale.cpp
+DVDLowReset                              fsa=0x801C7764 size=0xBC  <- Dolphin/dvd/dvdlowreset_8016d5e0.c
+DVDLowBreak                              fsa=0x801C7820 size=0x14  <- Dolphin/dvd/dvdlowbreak_8016d69c.c
+DVDLowClearCallback                      fsa=0x801C7834 size=0x1C  <- Dolphin/dvd/dvdlowclearcallback_8016d6b0.c
+__DVDLowSetWAType                        fsa=0x801C7850 size=0x44  <- Dolphin/dvd/dvdlowsetwatype_8016d6cc.c
+__DVDFSInit                              fsa=0x801C78CC size=0x38  <- Dolphin/dvd/dvdfsinit_8016d748.c
+DVDClose                                 fsa=0x801C7D34 size=0x24  <- Dolphin/dvd/dvdclose_8016dae8.c
+DVDReadAsyncPrio                         fsa=0x801C7F7C size=0xC0  <- Dolphin/dvd/dvdreadasyncprio_8016db6c.c
+cbForReadAsync                           fsa=0x801C803C size=0x30  <- Dolphin/dvd/cbforreadasync_8016dc2c.c
+DVDReadAbsAsyncPrio                      fsa=0x801C9D94 size=0xDC  <- Dolphin/dvd/dvdreadabsasyncprio_8016f89c.c
+DVDReadAbsAsyncForBS                     fsa=0x801C9E70 size=0xD0  <- Dolphin/dvd/dvdreadabsasyncforbs_8016f978.c
+DVDCancelStreamAsync                     fsa=0x801CA014 size=0xBC  <- Dolphin/dvd/dvdcancelstreamasync_8016fb1c.c
+DVDReset                                 fsa=0x801CA1A0 size=0x44  <- Dolphin/dvd/dvdreset_8016fca8.c
+DVDGetCommandBlockStatus                 fsa=0x801CA1E4 size=0x4C  <- Dolphin/dvd/dvdgetcommandblockstatus_8016fcec.c
+DVDGetCurrentDiskID                      fsa=0x801CA688 size=0x8  <- Dolphin/dvd/dvdgetcurrentdiskid_80170190.c
+__DVDClearWaitingQueue                   fsa=0x801CA8DC size=0x38  <- Dolphin/dvd/dvdqueue.c
+__DVDPushWaitingQueue                    fsa=0x801CA914 size=0x68  <- Dolphin/dvd/dvdqueue.c
+__DVDPopWaitingQueue                     fsa=0x801CA97C size=0xA0  <- Dolphin/dvd/dvdqueue.c
+__DVDCheckWaitingQueue                   fsa=0x801CAA1C size=0x58  <- Dolphin/dvd/dvdqueue.c
+__DVDDequeueWaitingQueue                 fsa=0x801CAA74 size=0x60  <- Dolphin/dvd/dvdqueue.c
+ErrorCode2Num                            fsa=0x801CAAD4 size=0x11C  <- Dolphin/dvd/dvderror.c
+__DVDStoreErrorCode                      fsa=0x801CABF0 size=0x7C  <- Dolphin/dvd/dvderror.c
+DVDCompareDiskID                         fsa=0x801CAC6C size=0xF8  <- Dolphin/dvd/dvdcomparediskid_80170774.c
+__DVDPrintFatalMessage                   fsa=0x801CAD64 size=0x30  <- Dolphin/dvd/dvdFatal.c
+VIGetCurrentLine                         fsa=0x801CC9A0 size=0x98  <- Dolphin/vi/vigetcurrentline_801729f4.c
+VIGetTvFormat                            fsa=0x801CCA38 size=0x68  <- Dolphin/vi/vigettvformat_80172a8c.c
+__PADDisableRecalibration                fsa=0x801CEB54 size=0x7C  <- Dolphin/pad/paddisablerecalibration_80174678.c
+AIStartDMA                               fsa=0x801CEC9C size=0x18  <- Dolphin/ai/aistartdma_801747c0.c
+AIGetDSPSampleRate                       fsa=0x801CEE7C size=0x14  <- Dolphin/ai/aigetdspsamplerate_801749d4.c
+AISetStreamVolLeft                       fsa=0x801CEFA0 size=0x1C  <- Dolphin/ai/aisetstreamvolleft_80174acc.c
+AIGetStreamPlayState                     fsa=0x801CEFBC size=0x10  <- Dolphin/ai/aigetstreamplaystate_801748e4.c
+ARStartDMA                               fsa=0x801CF4E0 size=0xF0  <- Dolphin/ar/arstartdma_80175080.c
+__ARGetInterruptStatus                   fsa=0x801D1324 size=0x10  <- Dolphin/ar/argetinterruptstatus_801753b0.c
+DSPReadMailFromDSP                       fsa=0x801D1334 size=0x18  <- Dolphin/dsp/dspmail_8017cd80.c
+DSPSendMailToDSP                         fsa=0x801D134C size=0x14  <- Dolphin/dsp/dspmail_8017cd80.c
+__CARDPutControlBlock                    fsa=0x801D2D80 size=0x64  <- Dolphin/card/cardputcontrolblock_8017eb20.c
+__CARDCompareFileName                    fsa=0x801D6D18 size=0x68  <- Dolphin/card/CARDOpen.c
+__CARDAccess                             fsa=0x801D6D80 size=0x94  <- Dolphin/card/CARDOpen.c
+__CARDIsWritable                         fsa=0x801D6E14 size=0x134  <- Dolphin/card/CARDOpen.c
+__CARDIsReadable                         fsa=0x801D6F48 size=0xF4  <- Dolphin/card/CARDOpen.c
+CARDOpen                                 fsa=0x801D703C size=0x11C  <- Dolphin/card/CARDOpen.c
+CARDClose                                fsa=0x801D7158 size=0x54  <- Dolphin/card/CARDOpen.c
+GXInitFifoPtrs                           fsa=0x801D97E0 size=0x70  <- Dolphin/gx/gxinitfifoptrs_801859a8.c
+GXSetCPUFifo                             fsa=0x801D985C size=0x128  <- Dolphin/gx/gxsetcpufifo_80185a24.c
+__GXFifoReadEnable                       fsa=0x801D9CFC size=0x24  <- Dolphin/gx/gxfiforeadenable_80185d7c.c
+__GXWriteFifoIntEnable                   fsa=0x801D9D84 size=0x30  <- Dolphin/gx/gxwritefifointenable_80185df8.c
+GXClearVtxDesc                           fsa=0x801DA364 size=0x38  <- Dolphin/gx/gxclearvtxdesc_80186880.c
+GXInvalidateVtxCache                     fsa=0x801DAC94 size=0x10  <- Dolphin/gx/gxinvalidatevtxcache_80187154.c
+GXFlush                                  fsa=0x801DAFF4 size=0x5C  <- Dolphin/gx/gxflush_801874b4.c
+GXSetDrawDone                            fsa=0x801DB3E0 size=0x98  <- Dolphin/gx/gxsetdrawdone_80187844.c
+GXDrawDone                               fsa=0x801DB478 size=0x80  <- Dolphin/gx/gxdrawdone_80187928.c
+GXPokeAlphaMode                          fsa=0x801DB51C size=0x14  <- Dolphin/gx/gxpokealphamode_801879cc.c
+GXPokeAlphaRead                          fsa=0x801DB530 size=0x20  <- Dolphin/gx/gxpokealpharead_801879e0.c
+GXPokeDstAlpha                           fsa=0x801DB5E4 size=0x24  <- Dolphin/gx/gxpokedstalpha_80187a94.c
+GXPokeAlphaUpdate                        fsa=0x801DB608 size=0x18  <- Dolphin/gx/gxpokealphaupdate_80187a00.c
+GXPokeZMode                              fsa=0x801DB620 size=0x20  <- Dolphin/gx/gxpokezmode_80187ad0.c
+GXInitLightDir                           fsa=0x801DCA1C size=0x1C  <- Dolphin/gx/gxinitlightdir_80188d48.c
+GXInitLightColor                         fsa=0x801DCA38 size=0xC  <- Dolphin/gx/gxinitlightcolor_80188d64.c
+GXSetNumTexGens                          fsa=0x801DCCA0 size=0x3C  <- Dolphin/gx/gxsetnumtexgens_801873e4.c
+GXInitTlutRegion                         fsa=0x801DD7A4 size=0x38  <- Dolphin/gx/gxinittlutregion_80189a98.c
+__GXSetIndirectMask                      fsa=0x801DE2BC size=0x30  <- Dolphin/gx/gxsetindirectmask_8018a2d0.c
+GXPixModeSync                            fsa=0x801DE2EC size=0x24  <- Dolphin/gx/gxpixmodesync_801879a8.c
+GXCallDisplayList                        fsa=0x801DF0BC size=0x70  <- Dolphin/gx/GXDisplayList.c
+GXClearGPMetric                          fsa=0x801DFF1C size=0x10  <- Dolphin/gx/gxcleargpmetric_8018d0c0.c
+__va_arg                                 fsa=0x801E0B6C size=0xC8  <- Dolphin/Runtime/__va_arg.c
+__destroy_global_chain                   fsa=0x801E0C34 size=0x48  <- Runtime.PPCEABI.H/global_destructor_chain.c
+__register_global_object                 fsa=0x801E0C7C size=0x18  <- Runtime.PPCEABI.H/global_destructor_chain.c
+__ptmf_test                              fsa=0x801E1070 size=0x30  <- Dolphin/Runtime/ptmf_80151434.c
+__ptmf_cmpr                              fsa=0x801E10A0 size=0x3C  <- Dolphin/Runtime/ptmf_80151434.c
+__ptmf_scall                             fsa=0x801E10DC size=0x28  <- Dolphin/Runtime/ptmf_80151434.c
+__cvt_fp2unsigned                        fsa=0x801E1104 size=0x5C  <- Dolphin/Runtime/cvtfp2unsigned_801514c8.c
+__div2u                                  fsa=0x801E1290 size=0xEC  <- Dolphin/Runtime/div2u_80151654.c
+__div2i                                  fsa=0x801E137C size=0x138  <- Dolphin/Runtime/div2i_80151740.c
+__mod2u                                  fsa=0x801E14B4 size=0xE0  <- Dolphin/Runtime/mod2u_80151878.c
+__mod2i                                  fsa=0x801E1598 size=0x10C  <- Dolphin/Runtime/mod2i_8015195c.c
+__shl2i                                  fsa=0x801E16A4 size=0x24  <- Dolphin/Runtime/shl2i_80151a68.c
+__shr2u                                  fsa=0x801E16C8 size=0x24  <- Dolphin/Runtime/shr2u_80151a8c.c
+__shr2i                                  fsa=0x801E16EC size=0x28  <- Dolphin/Runtime/shr2i_80151ab0.c
+__cvt_dbl_usll                           fsa=0x801E17C8 size=0xCC  <- Dolphin/Runtime/cvtdblusll_80151ad8.c
+OSGetStackPointer                        fsa=0x801E1894 size=0x8  <- Dolphin/os/OSGetStackPointer.c
+__fini_cpp_exceptions                    fsa=0x801E189C size=0x34  <- Runtime.PPCEABI.H/__init_cpp_exceptions.cpp
+__init_cpp_exceptions                    fsa=0x801E18D0 size=0x40  <- Runtime.PPCEABI.H/__init_cpp_exceptions.cpp
+__prep_buffer                            fsa=0x801E3068 size=0x34  <- Dolphin/MSL_C/MSL_Common/buffer_io.c
+__ieee754_fmod                           fsa=0x801E741C size=0x33C  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_fmod.c
+__ieee754_rem_pio2                       fsa=0x801E7F88 size=0x3A0  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_rem_pio2.c
+__kernel_cos                             fsa=0x801E8328 size=0xF4  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_cos.c
+__kernel_rem_pio2                        fsa=0x801E841C size=0xE54  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_rem_pio2.c
+__kernel_tan                             fsa=0x801E9310 size=0x214  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_tan.c
+atan                                     fsa=0x801E9524 size=0x218  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_atan.c
+copysign                                 fsa=0x801E9880 size=0x28  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_copysign.c
+floor                                    fsa=0x801E997C size=0x148  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_floor.c
+frexp                                    fsa=0x801E9AC4 size=0x8C  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_frexp.c
+ldexp                                    fsa=0x801E9B50 size=0x1C4  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ldexp.c
+modf                                     fsa=0x801E9D14 size=0xFC  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_modf.c
+tan                                      fsa=0x801E9EE8 size=0x78  <- Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_tan.c
+TRKNubMainLoop                           fsa=0x801EA39C size=0xF8  <- TRK_MINNOW_DOLPHIN/mainloop.c
+TRKNubWelcome                            fsa=0x801EA6BC size=0x28  <- TRK_MINNOW_DOLPHIN/nubinit.c
+TRKTerminateNub                          fsa=0x801EA6E4 size=0x24  <- TRK_MINNOW_DOLPHIN/nubinit.c
+TRKInitializeNub                         fsa=0x801EA708 size=0x14C  <- TRK_MINNOW_DOLPHIN/nubinit.c
+usr_puts_serial                          fsa=0x801EB390 size=0x88  <- TRK_MINNOW_DOLPHIN/usr_put.c
+TRKDoOverride                            fsa=0x801EC368 size=0x58  <- TRK_MINNOW_DOLPHIN/trkdooverride.cpp
+OutputData                               fsa=0x801EC4B8 size=0xA8  <- TRK_MINNOW_DOLPHIN/outputdata.cpp
+TRK_flush_cache                          fsa=0x801ECD44 size=0x38  <- TRK_MINNOW_DOLPHIN/flush_cache.c
+TRK_fill_mem                             fsa=0x801ECD7C size=0xB8  <- TRK_MINNOW_DOLPHIN/mem_TRK.c
+ReadFPSCR                                fsa=0x801ED1C8 size=0x24  <- TRK_MINNOW_DOLPHIN/fpscr.c
+WriteFPSCR                               fsa=0x801ED1EC size=0x24  <- TRK_MINNOW_DOLPHIN/fpscr.c
+THPSimpleGetCurrentFrame                 fsa=0x801ED458 size=0x10  <- THP/thpsimplegetcurrentframe.c
+TRK_main                                 fsa=0x801EEFAC size=0x58  <- TRK_MINNOW_DOLPHIN/main_TRK.c
+TRKTargetContinue                        fsa=0x801EF55C size=0x34  <- TRK_MINNOW_DOLPHIN/targcont.c
+ddh_cc_read                              fsa=0x801EF908 size=0xEC  <- TRK_MINNOW_DOLPHIN/ddh_cc_read.c
+ddh_cc_peek                              fsa=0x801EFD3C size=0x70  <- TRK_MINNOW_DOLPHIN/ddh_cc_peek.c
+ddh_cc_write                             fsa=0x801EFDF4 size=0xC0  <- TRK_MINNOW_DOLPHIN/ddh_cc_write.c
+ddh_cc_open                              fsa=0x801EFFB0 size=0x24  <- TRK_MINNOW_DOLPHIN/ddh_cc_simple.c
+ddh_cc_initialize                        fsa=0x801EFFDC size=0x88  <- TRK_MINNOW_DOLPHIN/ddh_cc_initialize.c
+gdev_cc_shutdown                         fsa=0x801F0124 size=0x8  <- TRK_MINNOW_DOLPHIN/gdev_cc_simple.c
+AMC_IsStub                               fsa=0x801F0134 size=0x8  <- Dolphin/os/StubReturns.c
+Hu_IsStub                                fsa=0x801F0BBC size=0x8  <- Dolphin/os/StubReturns.c
+__fini_cpp_exceptions_reference          fsa=0x801F0D64 size=0x4  <- Runtime.PPCEABI.H/__init_cpp_exceptions.cpp
+gTRKBigEndian                            fsa=0x802F8A40 size=0x4  <- TRK_MINNOW_DOLPHIN/nubinit.c
+
+=== NAME-MATCH BUT SIZE DIFFERS (needs review) ===
+OSPanic                                  fsa=0x8011C9EC fsa_size=0x1A0 cbr_size=0x12C  <- Dolphin/os/ospanic_80163f80.c
+free                                     fsa=0x80159C6C fsa_size=0x48 cbr_size=0x70  <- Dolphin/MSL_C/MSL_Common/free.c
+DecrementerExceptionHandler              fsa=0x801BBB2C fsa_size=0xF0 cbr_size=0x50  <- Dolphin/os/osalarm_80161e1c.c
+OnReset                                  fsa=0x801D2FCC fsa_size=0x50 cbr_size=0xA0  <- Dolphin/os/osalarm_80161e1c.c
+GXSetGPFifo                              fsa=0x801D9984 fsa_size=0x178 cbr_size=0x1A0  <- Dolphin/gx/gxsetgpfifo_80185b4c.c
+GXSetCullMode                            fsa=0x801DBAE4 fsa_size=0x44 cbr_size=0x28  <- Dolphin/gx/gxsetcullmode_80187f94.c
+tolower                                  fsa=0x801E30E8 fsa_size=0x3C cbr_size=0x24  <- Dolphin/MSL_C/MSL_Common/ctype.c
+strcmp                                   fsa=0x801E6578 fsa_size=0x148 cbr_size=0x128  <- Dolphin/MSL_C/MSL_Common/strcmp.c
+InitMetroTRK                             fsa=0x801EEC90 fsa_size=0x98 cbr_size=0x94  <- TRK_MINNOW_DOLPHIN/dolphin_trk.c
+__destroy_global_chain_reference         fsa=0x801F0D68 fsa_size=0x1 cbr_size=0x4  <- Runtime.PPCEABI.H/__init_cpp_exceptions.cpp
+
+=== UNIQUE REUSABLE SOURCE FILES ===
+Dolphin/MSL_C/MSL_Common/buffer_io.c
+Dolphin/MSL_C/MSL_Common/ctype.c
+Dolphin/MSL_C/MSL_Common/free.c
+Dolphin/MSL_C/MSL_Common/strcmp.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_fmod.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/e_rem_pio2.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_cos.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_rem_pio2.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/k_tan.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_atan.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_copysign.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_floor.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_frexp.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ldexp.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_modf.c
+Dolphin/MSL_C/MSL_Common_Embedded/Math/Double_precision/s_tan.c
+Dolphin/Runtime/__mem.c
+Dolphin/Runtime/__va_arg.c
+Dolphin/Runtime/cvtdblusll_80151ad8.c
+Dolphin/Runtime/cvtfp2unsigned_801514c8.c
+Dolphin/Runtime/div2i_80151740.c
+Dolphin/Runtime/div2u_80151654.c
+Dolphin/Runtime/mod2i_8015195c.c
+Dolphin/Runtime/mod2u_80151878.c
+Dolphin/Runtime/ptmf_80151434.c
+Dolphin/Runtime/shl2i_80151a68.c
+Dolphin/Runtime/shr2i_80151ab0.c
+Dolphin/Runtime/shr2u_80151a8c.c
+Dolphin/ai/aigetdspsamplerate_801749d4.c
+Dolphin/ai/aigetstreamplaystate_801748e4.c
+Dolphin/ai/aisetstreamvolleft_80174acc.c
+Dolphin/ai/aistartdma_801747c0.c
+Dolphin/ar/argetinterruptstatus_801753b0.c
+Dolphin/ar/arstartdma_80175080.c
+Dolphin/axfx/AXFXHooks.c
+Dolphin/base/PPCArch2.c
+Dolphin/base/PPCArch3.c
+Dolphin/base/ppcdisablespeculation_80161234.c
+Dolphin/base/ppcfpscr_801611d4.c
+Dolphin/base/ppcsetfpnonieeemode_8016125c.c
+Dolphin/card/CARDOpen.c
+Dolphin/card/cardputcontrolblock_8017eb20.c
+Dolphin/db/db2.c
+Dolphin/db/dbinit_80161264.c
+Dolphin/dsp/dspmail_8017cd80.c
+Dolphin/dvd/cbforreadasync_8016dc2c.c
+Dolphin/dvd/dvdFatal.c
+Dolphin/dvd/dvdcancelstreamasync_8016fb1c.c
+Dolphin/dvd/dvdclose_8016dae8.c
+Dolphin/dvd/dvdcomparediskid_80170774.c
+Dolphin/dvd/dvderror.c
+Dolphin/dvd/dvdfsinit_8016d748.c
+Dolphin/dvd/dvdgetcommandblockstatus_8016fcec.c
+Dolphin/dvd/dvdgetcurrentdiskid_80170190.c
+Dolphin/dvd/dvdlowbreak_8016d69c.c
+Dolphin/dvd/dvdlowclearcallback_8016d6b0.c
+Dolphin/dvd/dvdlowreset_8016d5e0.c
+Dolphin/dvd/dvdlowsetwatype_8016d6cc.c
+Dolphin/dvd/dvdqueue.c
+Dolphin/dvd/dvdreadabsasyncforbs_8016f978.c
+Dolphin/dvd/dvdreadabsasyncprio_8016f89c.c
+Dolphin/dvd/dvdreadasyncprio_8016db6c.c
+Dolphin/dvd/dvdreset_8016fca8.c
+Dolphin/exi/exiclearinterrupts_8015e0ec.c
+Dolphin/exi/exidetach_8015e564.c
+Dolphin/exi/exigetid_8015efc8.c
+Dolphin/exi/exigetstate_8015efb0.c
+Dolphin/exi/exiimm_8015dab8.c
+Dolphin/exi/exiinit_8015ec0c.c
+Dolphin/exi/exiinterrupthandlers_8015e85c.c
+Dolphin/exi/setexiinterruptmask_8015d9c4.c
+Dolphin/gx/GXDisplayList.c
+Dolphin/gx/GXInitTexObjUserData.c
+Dolphin/gx/gxcleargpmetric_8018d0c0.c
+Dolphin/gx/gxclearvtxdesc_80186880.c
+Dolphin/gx/gxdrawdone_80187928.c
+Dolphin/gx/gxfiforeadenable_80185d7c.c
+Dolphin/gx/gxflush_801874b4.c
+Dolphin/gx/gxinitfifoptrs_801859a8.c
+Dolphin/gx/gxinitlightattn_80188abc.c
+Dolphin/gx/gxinitlightcolor_80188d64.c
+Dolphin/gx/gxinitlightdir_80188d48.c
+Dolphin/gx/gxinittlutregion_80189a98.c
+Dolphin/gx/gxinvalidatevtxcache_80187154.c
+Dolphin/gx/gxpixmodesync_801879a8.c
+Dolphin/gx/gxpokealphamode_801879cc.c
+Dolphin/gx/gxpokealpharead_801879e0.c
+Dolphin/gx/gxpokealphaupdate_80187a00.c
+Dolphin/gx/gxpokedstalpha_80187a94.c
+Dolphin/gx/gxpokezmode_80187ad0.c
+Dolphin/gx/gxsetcpufifo_80185a24.c
+Dolphin/gx/gxsetcullmode_80187f94.c
+Dolphin/gx/gxsetdrawdone_80187844.c
+Dolphin/gx/gxsetgpfifo_80185b4c.c
+Dolphin/gx/gxsetindirectmask_8018a2d0.c
+Dolphin/gx/gxsetnumtexgens_801873e4.c
+Dolphin/gx/gxwritefifointenable_80185df8.c
+Dolphin/mtx/mtx44persp_8016c490.c
+Dolphin/mtx/psmtxmultvec.c
+Dolphin/mtx/psmtxmultvecsr.c
+Dolphin/mtx/psvecsubtract.c
+Dolphin/os/OSAudioSystem.c
+Dolphin/os/OSGetCurrentContext.c
+Dolphin/os/OSGetInterruptHandler.c
+Dolphin/os/OSGetStackPointer.c
+Dolphin/os/OSInitThreadQueue.c
+Dolphin/os/OSLink.c
+Dolphin/os/OSSync.c
+Dolphin/os/PPCSync.c
+Dolphin/os/StubReturns.c
+Dolphin/os/__start.c
+Dolphin/os/dcstorerange_80162fd8.c
+Dolphin/os/osalarm_80161e1c.c
+Dolphin/os/osalloc_801625f4.c
+Dolphin/os/osallocfromheap_801626a0.c
+Dolphin/os/oscacheinit_801632c8.c
+Dolphin/os/oscreatethread_8016a554.c
+Dolphin/os/osdisableinterrupts_80166e50.c
+Dolphin/os/osdispatchinterrupt_80167328.c
+Dolphin/os/osdumpcontext_80163ae0.c
+Dolphin/os/osfprinit_80161350.c
+Dolphin/os/osfpucontextsave_80163e54.c
+Dolphin/os/osgetconsoletype_80161478.c
+Dolphin/os/osgetdiconfig_80161ddc.c
+Dolphin/os/osgetprogressivemode_80169808.c
+Dolphin/os/osgetsystemtime_8016b090.c
+Dolphin/os/osloadfpucontext_801635b4.c
+Dolphin/os/osmaskinterrupts_80166f40.c
+Dolphin/os/ospanic_80163f80.c
+Dolphin/os/osreschedule_8016a4e8.c
+Dolphin/os/ossavecontext_80163870.c
+Dolphin/os/osscheduler_80169fdc.c
+Dolphin/os/osseterrorhandler_801640ac.c
+Dolphin/os/osswitchfpucontext_80163d88.c
+Dolphin/os/osthread1_8016a05c.c
+Dolphin/os/osthreadcluster_8016a73c.c
+Dolphin/os/ostime_8016b070.c
+Dolphin/os/ostimetosystemtime_8016b0f4.c
+Dolphin/os/selectthread_8016a2c0.c
+Dolphin/os/seteffectivepriority_8016a100.c
+Dolphin/pad/paddisablerecalibration_80174678.c
+Dolphin/si/SISamplingRate.c
+Dolphin/si/completetransfer_8015f9b4.c
+Dolphin/si/gettypecallback_80160ab0.c
+Dolphin/si/sialarmhandler_801608b8.c
+Dolphin/si/sibusy_8015f958.c
+Dolphin/si/sienablepollinginterrupt_8015fff4.c
+Dolphin/si/sigetresponseraw_80160720.c
+Dolphin/si/sigetstatus_8016050c.c
+Dolphin/si/siinit_8016024c.c
+Dolphin/si/siinterrupthandler_8015fcb0.c
+Dolphin/si/sisetxy_801605ac.c
+Dolphin/si/sitransfer_80160300.c
+Dolphin/si/sitransfercommands_8016059c.c
+Dolphin/vi/vigetcurrentline_801729f4.c
+Dolphin/vi/vigettvformat_80172a8c.c
+Runtime.PPCEABI.H/__init_cpp_exceptions.cpp
+Runtime.PPCEABI.H/global_destructor_chain.c
+THP/thpsimplegetcurrentframe.c
+TRK_MINNOW_DOLPHIN/ddh_cc_initialize.c
+TRK_MINNOW_DOLPHIN/ddh_cc_peek.c
+TRK_MINNOW_DOLPHIN/ddh_cc_read.c
+TRK_MINNOW_DOLPHIN/ddh_cc_simple.c
+TRK_MINNOW_DOLPHIN/ddh_cc_write.c
+TRK_MINNOW_DOLPHIN/dolphin_trk.c
+TRK_MINNOW_DOLPHIN/flush_cache.c
+TRK_MINNOW_DOLPHIN/fpscr.c
+TRK_MINNOW_DOLPHIN/gdev_cc_simple.c
+TRK_MINNOW_DOLPHIN/main_TRK.c
+TRK_MINNOW_DOLPHIN/mainloop.c
+TRK_MINNOW_DOLPHIN/mem_TRK.c
+TRK_MINNOW_DOLPHIN/nubinit.c
+TRK_MINNOW_DOLPHIN/outputdata.cpp
+TRK_MINNOW_DOLPHIN/targcont.c
+TRK_MINNOW_DOLPHIN/trkdooverride.cpp
+TRK_MINNOW_DOLPHIN/usr_put.c
+game/system/psquatscale.cpp

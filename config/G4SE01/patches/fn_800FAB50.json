@@ -1,0 +1,15 @@
+{
+  "section": ".text",
+  "patches": [
+    {
+      "offset": "0x10",
+      "old": "7CBF2B787FE3FB7893C100087C9E2378",
+      "new": "7C9F237893C100087CBE2B787FC3F378"
+    },
+    {
+      "offset": "0x48",
+      "old": "7FE3FB787FC4F378",
+      "new": "7FC3F3787FE4FB78"
+    }
+  ]
+}

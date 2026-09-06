@@ -1,0 +1,150 @@
+{
+  "section": ".text",
+  "patches": [
+    {
+      "offset": "0x11",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x15",
+      "old": "9E",
+      "new": "9F"
+    },
+    {
+      "offset": "0x29",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x39",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x45",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x51",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x55",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x79",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x7d",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xa1",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xa5",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xc9",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xcd",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xf1",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0xf5",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x131",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x155",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x159",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x195",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x1b9",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x1bd",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x1f9",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x239",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x25d",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x261",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x289",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x2a9",
+      "old": "C0",
+      "new": "E0"
+    },
+    {
+      "offset": "0x2b5",
+      "old": "E3FB",
+      "new": "C3F3"
+    },
+    {
+      "offset": "0x2bd",
+      "old": "E3FB",
+      "new": "C3F3"
+    }
+  ]
+}

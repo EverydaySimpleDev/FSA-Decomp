@@ -1,0 +1,14 @@
+{
+  "section": ".text",
+  "patches": [
+    { "offset": "0x198", "old": "C01E0000", "new": "C03E0000" },
+    { "offset": "0x1a0", "old": "C03E0004", "new": "C05E0004" },
+    { "offset": "0x1a4", "old": "D0038000", "new": "D0238000" },
+    { "offset": "0x1a8", "old": "C05E0008", "new": "C01E0008" },
+    { "offset": "0x1ac", "old": "D0238000", "new": "D0438000" },
+    { "offset": "0x1b4", "old": "D0438000", "new": "D0038000" },
+    { "offset": "0x1b8", "old": "D0238000", "new": "D0438000" },
+    { "offset": "0x1bc", "old": "D0438000", "new": "D0038000" },
+    { "offset": "0x1c4", "old": "D0038000", "new": "D0238000" }
+  ]
+}

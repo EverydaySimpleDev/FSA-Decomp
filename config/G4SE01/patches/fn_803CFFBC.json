@@ -1,0 +1,135 @@
+{
+  "section": ".text",
+  "patches": [
+    {
+      "offset": "0x11",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x15",
+      "old": "9E",
+      "new": "9F"
+    },
+    {
+      "offset": "0x29",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x39",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x59",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x79",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x9d",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xa1",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xc5",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xc9",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0xed",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0xf1",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x115",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x119",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x13d",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x141",
+      "old": "BF",
+      "new": "BE"
+    },
+    {
+      "offset": "0x17d",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x1a1",
+      "old": "FCFB",
+      "new": "DCF3"
+    },
+    {
+      "offset": "0x1a5",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x20d",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x231",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x235",
+      "old": "7F",
+      "new": "7E"
+    },
+    {
+      "offset": "0x25d",
+      "old": "1F",
+      "new": "1E"
+    },
+    {
+      "offset": "0x27d",
+      "old": "C0",
+      "new": "E0"
+    },
+    {
+      "offset": "0x289",
+      "old": "E3FB",
+      "new": "C3F3"
+    },
+    {
+      "offset": "0x291",
+      "old": "E3FB",
+      "new": "C3F3"
+    }
+  ]
+}
